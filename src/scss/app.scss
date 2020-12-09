@@ -1,0 +1,86 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import './admin.scss';
+
+// body{
+//     width: 100vw;
+//     overflow: hidden;
+// }
+
+// .firstSection{
+//     max-width: 100%;
+//     padding: 0;
+//     margin: 0;
+//     //background-image: url(../assets/shine_clever.jpg);
+//     background-color: green;
+//     /* Full height */
+//     height: 100vh; 
+
+//     /* Center and scale the image nicely */
+//     background-position: bottom right;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+// .firstSection form button.btn {
+//     font-size: 20px;
+//     font-weight: 500;
+//     display: block;
+//     width: 176px;
+//     margin: 0 auto;
+//     transition: all .3s ease;
+    
+// }
+// #f1 form-group {
+//     display: block;
+//     width: 100%;
+//     height: calc(1.5em + .75rem + 2px);
+//     padding: 1.5rem;
+//     font-size: 1rem;
+//     font-weight: 400;
+//     line-height: 1.5;
+//     color: #757575;
+//     background-color: #fff;
+//     background-clip: padding-box;
+//     border: 1px solid #ced4da;
+//     border-radius: 1.5625rem;
+//     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+//     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+// }
+
+
+body{
+    font-family: 'Nunito', sans-serif !important;
+}
+.custom-btn{
+    // border-radius: 10rem;
+    padding: 0.5rem 2.5rem;
+}
+// hide scroll bar
+.sidebar-content {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+.sidebar-content::-webkit-scrollbar { 
+    display: none;  // Safari and Chrome
+}
+
+.intro{
+    margin-top: 3rem;
+}
+
+@media (min-width: 992px){
+
+    .modal-lg, .modal-xl {
+        max-width: 1200px;
+    }
+
+}
